@@ -4,7 +4,7 @@ import random
 deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10] * 4
 #สับไพ่
 random.shuffle(deck)
-#จั่วไพ่ฝ่ายละ 1 ใบ
+#จั่วไพ่ฝ่ายละ 2 ใบ
 player_hand = []
 dealer_hand = []
 for i in range(2):
